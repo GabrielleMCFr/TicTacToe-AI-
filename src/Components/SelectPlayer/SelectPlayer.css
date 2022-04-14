@@ -1,0 +1,63 @@
+.select-player {
+    width: 100%;
+    text-align: center;
+    color: gray
+}
+
+.player {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem ;
+}
+
+
+.listplayer {
+    list-style: none;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    padding: 1rem;
+    margin-right: 1rem
+}
+
+input {
+    visibility:hidden;
+}
+label {
+    cursor: pointer;
+}
+
+
+#x-player, #o-player {
+    transition: all 0.2s;
+    font-size: 7rem;
+    text-align: center;
+}
+
+
+#x-player:hover, #o-player:hover {
+    transform: scale(1.4);
+    color: peru
+}
+
+@media only screen and (max-width: 580px) {
+    #x-player, #o-player {
+        font-size: 5rem;
+    }
+  }
+
+  @media only screen and (max-width: 510px) {
+    #x-player, #o-player {
+        font-size: 4rem;
+        padding: 0.5rem
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    #x-player, #o-player {
+        font-size: 3rem;
+    }
+  }

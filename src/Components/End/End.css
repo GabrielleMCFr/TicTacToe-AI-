@@ -1,0 +1,34 @@
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem;
+    border: 1px solid dodgerblue;
+    box-shadow: 0 0 10px dodgerblue; 
+    padding: 50px 30px 70px 30px;
+    width: 450px;
+    background-color: whitesmoke;
+    min-height: 25rem;
+    font-size: 3rem;
+    color: rgb(90, 90, 90)
+}
+
+.end button {
+        min-width: 10rem;
+        cursor: pointer;
+        width: 8.11rem;
+        padding: .77rem 0;
+        border-radius: 3rem;
+        text-align: center;
+        font-size: 2rem;
+        border: 2px solid dodgerblue;
+        color: dodgerblue
+  
+}
+
+.end button:hover {
+    background: #2196F3;
+    color: white;
+}

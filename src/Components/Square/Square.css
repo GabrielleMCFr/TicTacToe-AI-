@@ -1,0 +1,64 @@
+
+  .square {
+    background: rgb(178, 184, 212);
+    border: 4px solid whitesmoke;
+    float: left;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 70px;
+    height: 8rem;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 8rem;
+    border-radius: 10px;
+    transition: all 0.4s;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+
+  .x-class {
+    color: rgb(179, 78, 78)
+  }
+
+  .o-class {
+    color: rgb(51, 72, 141)
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .square {
+      height: 7rem;
+      width: 7rem;
+      font-size: 4rem;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .square {
+      height: 5rem;
+      width: 5rem;
+      font-size: 3.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 370px) {
+    .square {
+      font-size: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .square {
+      height: 4rem;
+      width: 4rem;
+      font-size: 2rem;
+      line-height: 30px;
+    }
+  }

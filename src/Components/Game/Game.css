@@ -1,0 +1,82 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    border: 1px solid dodgerblue;
+    box-shadow: 0 0 10px dodgerblue; 
+    padding: 50px 30px 30px 30px;
+    width: 28rem;
+    background-color: whitesmoke;
+    z-index: 9;
+    min-height: 25rem;
+    color: rgb(90, 90, 90);
+    transition: all 0.4s;
+  }
+
+  .game-board {
+    font-family: 'Kaushan Script';
+    color: #2c2c2c
+  }
+  
+  #info {
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #info span {
+    padding: 1rem
+  }
+
+
+#undo-button {
+  font-size: 3rem;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: rgb(141, 153, 206);
+  transition: all 0.2s;
+}
+
+#undo-button:hover {
+  color: rgb(72, 86, 146);
+  transform: scale(1.4);
+}
+
+@media only screen and (max-width: 480px) {
+  .game {
+    width: 25rem
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .game {
+    width: 22rem
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .game {
+    width: 20rem
+  }
+
+  #info span {
+    padding: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .game {
+    padding: 2rem 0.5rem 1rem 0.5rem;
+    width: 17rem
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .game {
+    width: 15rem
+  }
+}
